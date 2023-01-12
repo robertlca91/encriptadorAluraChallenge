@@ -1,0 +1,89 @@
+@media screen and (max-width: 480px) {
+  body {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .text-input {
+    width: 80%;
+  }
+
+  .logo {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  #encriptar {
+    border: none;
+    width: 40%;
+  }
+
+  #desencriptar {
+    border: none;
+    width: 40%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  #texto {
+    padding: 1rem;
+  }
+
+  #copiar {
+    margin-bottom: 1rem;
+    border: none;
+    background-color: #d8dfe8;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  header {
+
+    width: 100%;
+  }
+
+  .text-input {
+    width: 80%;
+  }
+
+  .logo {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  #encriptar {
+    border: none;
+    /* width: 100%; */
+  }
+
+  #desencriptar {
+    border: none;
+    /* width: 100%; */
+  }
+
+  main {
+    width: 100%;
+  }
+
+  #texto {
+    padding: 1rem;
+  }
+
+  #copiar {
+    margin-bottom: 1rem;
+    border: none;
+    background-color: #d8dfe8;
+    /* width: 40%; */
+  }
+}
